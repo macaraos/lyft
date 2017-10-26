@@ -1,3 +1,469 @@
-/*
- * Estilos de tu proyecto
- */
+*{
+	margin: 0;
+	padding right: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	 -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+/*Encabezado*/
+.menu1{
+	background-image: url(../assets/images/hero.gif);
+	width: 100%;
+	height: 700px;
+	z-index: -1;
+	background-size: cover;
+}
+.m1,.m2,.m3,.m4{
+ 	display: inline-block;
+ 	position: relative;
+ 	color: #fff;
+ 	font-size: 17px;
+ 	left: 700px;
+ 	top: 1150px;
+ 	padding-right: 50px;
+}
+.m4{
+ 	border: 1px solid;
+ 	border-radius: 7px;
+ 	padding: 10px;
+ 	padding-left: 20px;
+ 	padding-right:20px;
+}
+.m5{
+	position: relative;
+	font-size: 37px;
+	color: #51008C;
+	left: 730px;
+	list-style: none;
+	top: 1299px;
+	z-index: 1000;
+	font-weight: bold;
+}
+.m6{
+	position: relative;
+	font-size: 37px;
+	color: #51008C;
+	left: 730px;
+	list-style: none;
+	top: 1296px;
+	z-index: 1000;
+	font-weight: bold;
+}
+.m7{
+	position: relative;
+	font-size: 15px;
+	color: #51008C;
+	left: 730px;
+	list-style: none;
+	top: 1309px;
+	z-index: 1000;
+	font-weight: bold;
+}
+.datos{
+	position: relative;
+	font-size: 15px;
+	color: #BEC2DE;
+	left: 840px;
+	list-style: none;
+	top: 170px;
+	z-index: 1000;
+	font-weight: bold;
+}
+.m12{
+	padding-bottom: 10px;
+}
+.m8{
+ 	position: relative;
+ 	width: 128px;
+ 	border-radius: 7px;
+ 	padding: 15px;
+ 	padding-left: 20px;
+ 	padding-right:20px;
+ 	list-style: none;
+ 	z-index: 1000;
+ 	background-color: #ff00bf;
+ 	color: #fff;
+ 	left: 730px;
+ 	top: 1410px;
+}
+.m9{
+	position: relative;
+	list-style: none;
+	left: 920px;
+	top: 1375px;
+	z-index: 1000;
+}
+a{
+	color: #A2ABBC;
+	z-index: 1000;
+}
+.m10{
+	position: relative;
+	color: #A2ABBC;
+	font-size: 10px;
+	left: 730px;
+	top: 1410px;
+	list-style: none;
+	z-index: 1000;
+}
+.m11{
+	position: relative;
+	color: #A2ABBC;
+	font-size: 10px;
+	left: 730px;
+	top: 1420px;
+	list-style: none;
+	z-index: 1000;
+}
+.cuadro1{
+	position: relative;
+	background-color: #fff;
+	width: 516px;
+	height: 430px;
+	bottom: 60px;
+	left: 780px;
+}
+/*Logo*/
+div.logo1{
+    width: 80px;
+    height: auto;
+}
+div.logo1 img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-width: 80px;
+    max-height: 100%;
+    position: relative;
+    bottom: 620px;
+    left: 100px;
+}
+/*Primera seccion*/
+.morado{
+	background-color: #691b84;
+	color: #fff;
+	margin-top: 0px;
+	width: 1298px;
+  	height: 650px;
+  	margin-left: 0px;
+}
+/*Imagen de celular*/
+div.celular{
+	width: 500px;
+    height: auto;
+}
+div.celular img{
+	width: auto;
+    height: auto;
+    max-width: 100%;
+    min-width: 300px;
+    max-height: 100%;
+    position: relative;
+    bottom: 650px;
+    left: 700px;
+}
+ul{
+	z-index: 1000;
+	position: relative;
+	list-style: none;
+	color: #fff;
+	bottom: 1080px;
+	padding-right: 850px;
+	left: 70px;
+}
+.p1{
+	padding-bottom: 16px;
+	font-weight: bold;
+}
+.p2{
+	padding-bottom: 60px;
+}
+.p3{
+	padding-bottom: 16px;
+	font-weight: bold;
+}
+.p4{
+	padding-bottom: 60px;
+}
+.p5{
+	font-weight: bold;
+}
+.p6{
+	padding-bottom: 16px;
+	font-weight: bold;
+}
+/*Segunda seccion*/
+/*Primer video*/
+.video1{
+	position: relative;
+	bottom: 896px;
+	left: 498px;
+}
+.t1{
+	position: relative;
+	font-size: 12px;
+	z-index: 1000;
+	color: #000;
+	bottom: 340px;
+}
+.t2{
+	position: relative;
+	font-size: 25px;
+	font-weight: bold;
+	z-index: 1000;
+	color: #000;
+	bottom: 340px;
+}
+.t3{
+	position: relative;
+	font-size: 16px;
+	z-index: 1000;
+	color: #000;
+	bottom: 310px;
+	padding-right: 80px;
+}
+/*Tercera seccion*/
+/*Segundo video*/
+.video2{
+	position: relative;
+	bottom: 1025px;
+	left: 0px;
+}
+.t4{
+	position: relative;
+	font-size: 12px;
+	z-index: 1000;
+	color: #000;
+	left: 750px;
+	bottom: 460px;
+}
+.t5{
+	position: relative;
+	font-size: 25px;
+	font-weight: bold;
+	z-index: 1000;
+	color: #000;
+	left: 750px;
+	bottom: 460px;
+}
+.t6{
+	position: relative;
+	font-size: 16px;
+	z-index: 1000;
+	color: #000;
+	left: 750px;
+	bottom: 425px;
+	padding-right: 70px;
+}
+/*Cuarta seccion*/
+/*Tercer video*/
+.video3{
+	position: relative;
+	bottom: 1175px;
+	left: 498px;
+}
+.t7{
+	position: relative;
+	font-size: 12px;
+	z-index: 1000;
+	color: #000;
+	bottom: 610px;
+}
+.t8{
+	position: relative;
+	font-size: 25px;
+	font-weight: bold;
+	z-index: 1000;
+	color: #000;
+	bottom: 610px;
+}
+.t9{
+	position: relative;
+	font-size: 16px;
+	z-index: 1000;
+	color: #000;
+	bottom: 570px;
+	padding-right: 50px;
+}
+/*Quinta seccion*/
+.color{
+	position: relative;
+	background-color: #333447;
+	width: 1298px;
+	height: 650px;
+	bottom: 1304px;
+}
+.f1{
+	position: relative;
+	z-index: 1000;
+	color: #d3d9e8;
+	font-weight: bold;
+	font-size: 17px;
+	bottom: 800px;
+	left: 50px;
+}
+.f2,.f3,.f4,.f5{
+	position: relative;
+	z-index: 1000;
+	color: #d3d9e8;
+	font-size: 15px;
+	bottom: 780px;
+	padding: 20px;
+	left: 30px;
+}
+.f6{
+	position: relative;
+	z-index: 1000;
+	color: #d3d9e8;
+	font-weight: bold;
+	font-size: 17px;
+	bottom: 800px;
+	left: 340px;
+	bottom: 1059px;
+}
+.f7,.f8,.f9,.f10{
+	position: relative;
+	z-index: 1000;
+	color: #d3d9e8;
+	font-size: 15px;
+	bottom: 1040px;
+	padding: 20px;
+	left: 320px;
+}
+.f11{
+	position: relative;
+	z-index: 1000;
+	color: #d3d9e8;
+	font-weight: bold;
+	font-size: 17px;
+	bottom: 800px;
+	left: 670px;
+	bottom: 1318px;
+}
+.f12,.f13,.f14,.f15{
+	position: relative;
+	z-index: 1000;
+	color: #d3d9e8;
+	font-size: 15px;
+	bottom: 1298px;
+	padding: 20px;
+	left: 652px;
+}
+/*Fotos Aplicaciones*/
+div.photos{
+    width: 120px;
+    height: auto;
+}
+div.photos img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-width: 120px;
+    max-height: 100%;
+    position: relative;
+    bottom: 620px;
+    left: 100px;
+    padding: 15px;
+    bottom: 1560px;
+    left: 910px;
+}
+/*Iconos*/
+.i1{
+	position: relative;
+	z-index: 1000;
+	padding: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	display: inline-block;
+	color: #d3d9e8;
+	bottom: 1450px;
+	left: 430px;
+	border: 1px solid;
+	border-radius: 100%;
+}
+.i2{
+	position: relative;
+	z-index: 1000;
+	padding: 10px;
+	padding-left: 14px;
+	padding-right: 14px;
+	display: inline-block;
+	color: #d3d9e8;
+	bottom: 1450px;
+	left: 480px;
+	border: 1px solid;
+	border-radius: 100%;
+}
+.i3{
+	position: relative;
+	z-index: 1000;
+	padding: 10px;
+	padding-left: 14px;
+	padding-right: 14px;
+	display: inline-block;
+	color: #d3d9e8;
+	bottom: 1450px;
+	left: 530px;
+	border: 1px solid;
+	border-radius: 100%;
+}
+hr{
+	position: relative;
+	bottom: 2500px;
+	left: 340px;
+}
+.end{
+	position: relative;
+	z-index: 1000;
+	font-size: 15px;
+	color: #d3d9e8;
+	left: 570px;
+	bottom: 2440px;
+}
+.logo2{
+	position: relative;
+	z-index: 1000;
+	color: #d3d9e8;
+	left: 550px;
+	bottom: 2459px;
+}
+.f2:hover{
+	color: #910D74;
+}
+.f3:hover{
+	color: #910D74;
+}
+.f4:hover{
+	color: #910D74;
+}
+.f5:hover{
+	color: #910D74;
+}
+.f7:hover{
+	color: #910D74;
+}
+.f8:hover{
+	color: #910D74;
+}
+.f9:hover{
+	color: #910D74;
+}
+.f10:hover{
+	color: #910D74;
+}
+.f12:hover{
+	color: #910D74;
+}
+.f13:hover{
+	color: #910D74;
+}
+.f14:hover{
+	color: #910D74;
+}
+.f15:hover{
+	color: #910D74;
+}
